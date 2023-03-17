@@ -14,14 +14,18 @@ jobs:
         cd cloud-computing-foundations/scaffold
     - name: Install dependencies
       run: |
+        cd cloud-computing-foundations/scaffold
         make install
     - name: Lint with pylint
       run: |
+        cd cloud-computing-foundations/scaffold
         make lint
     - name: Test with pytest
       run: |
+        cd cloud-computing-foundations/scaffold
         make test
     - name: Format Code with Black
       run: |
+        cd cloud-computing-foundations/scaffold
         make format
         
