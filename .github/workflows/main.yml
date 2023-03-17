@@ -9,6 +9,9 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.8
+    - name: Change directory
+      run: |
+        cd cloud-computing-foundations/scaffold
     - name: Install dependencies
       run: |
         make install
