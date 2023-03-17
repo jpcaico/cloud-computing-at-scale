@@ -1,0 +1,7 @@
+make install
+
+make lint 
+
+make format
+
+make all
